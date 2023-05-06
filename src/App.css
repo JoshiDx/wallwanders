@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+html{
+    background-color: rgba(248, 237, 227, 1);;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-headerMain{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("images/fonkMenu.png");
+    background-size: 100vw;
+    width: 100%;
+    margin-top: 3%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-headerLogo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 40%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-headerLogoImg{
+    display: flex;
+    width: 75px;
+    height: 75px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
-
-.App-link {
-  color: #61dafb;
+.App-headerText{
+    font-family: ingrid-darling;
+    font-size: 60px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-headerCart{
+    display: flex;
+    margin-right: 3vh;
+}
+@font-face {
+    font-family: 'ingrid-darling';
+    src: url('ttf/IngridDarling-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
