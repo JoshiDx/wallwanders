@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Posters extends Component {
     render() {
         return (
-            <div>
+            <div className={"App-postersMain"}>
                 <div className={"App-previewPosters"}></div>
                 <div className={"App-Sidebar"}>
                     <div className={"App-SidebarText"}>
