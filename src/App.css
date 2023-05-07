@@ -19,6 +19,7 @@ html{
     justify-content: center;
     align-items: end;
     margin-left: 40%;
+    text-decoration: none;
 }
 .App-headerLogoImg{
     display: flex;
@@ -26,10 +27,13 @@ html{
     height: 75px;
     margin-top: 1vh;
     margin-bottom: 1vh;
+
 }
 .App-headerText{
     font-family: ingrid-darling;
     font-size: 60px;
+    text-decoration: none;
+    color: black;
 }
 .App-headerCart{
     display: flex;
@@ -87,6 +91,8 @@ html{
     background-image: url("images/firstBlock.png");
     width: 720px;
     height: 721px;
+    text-decoration: none;
+    color: black;
 }
 .App-homeFirstPlateText{
     display: flex;
@@ -119,9 +125,36 @@ html{
     height: 341px;
     margin-top: 2.5vh;
 }
+
+.App-previewPosters{
+    display: flex;
+    background: url("images/prewiev.svg") no-repeat;
+}
+
+.App-Sidebar{
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.App-SidebarText{
+    font-family: TenorSans;
+    font-size: 40px;
+    width: 100px;
+    border-bottom:1px solid black;
+}
+
 @font-face {
     font-family: 'ingrid-darling';
     src: url('ttf/IngridDarling-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TenorSans';
+    src: url('ttf/TenorSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
